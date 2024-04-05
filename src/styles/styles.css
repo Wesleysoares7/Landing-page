@@ -2,4 +2,29 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff9ea;
+}
+
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcb45;
+  border-radius: 0.75rem;
+  padding: 0.625rem 0.875rem;
+  font-weight: 600;
+  box-shadow: 0rem 0rem 0.625rem 0.125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+  background-color: #f8d477;
 }
