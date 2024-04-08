@@ -3,7 +3,7 @@ header {
   padding: 1.75rem 8%;
   position: sticky;
   top: 0;
-  background-color: #fff9ea;
+  background-color: var(--color-primary-1);
   z-index: 3;
 }
 
@@ -16,7 +16,7 @@ header {
 
 #nav_logo {
   font-size: 1.5rem;
-  color: #e9a209;
+  color: var(--color-primary-6);
 }
 
 #nav_list {
@@ -33,7 +33,7 @@ header {
 
 .nav-item.active a {
   color: #1d1d1d;
-  border-bottom: 0.1875rem solid #ffe100;
+  border-bottom: 0.1875rem solid var(--color-primary-3);
 }
 
 #mobile_btn {

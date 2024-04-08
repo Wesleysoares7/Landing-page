@@ -17,7 +17,7 @@
 }
 
 #cta .title span {
-  color: #e9a209;
+  color: var(--color-primary-6);
 }
 
 #cta .description {
@@ -63,7 +63,7 @@
 }
 
 .shape {
-  background-color: #ffe8b4;
+  background-color: var(--color-primary-2);
   width: 50%;
   height: 100%;
   position: absolute;
